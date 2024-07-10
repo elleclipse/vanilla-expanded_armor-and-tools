@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "vanilla-expanded",
+	"version": "${version}",
+	"name": "VanillaExpanded",
+	"description": "This is a simple mod that aims to provide more block continuity",
+	"authors": [
+		"elleclipse"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/vanillaexpanded/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.elleclipse.vanillaexpanded.VanillaExpanded"
+		],
+		"client": [
+			"net.elleclipse.vanillaexpanded.VanillaExpandedClient"
+		],
+		"fabric-datagen": [
+			"net.elleclipse.vanillaexpanded.VanillaExpandedDataGenerator"
+		]
+	},
+	"mixins": [
+		"vanillaexpanded.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
