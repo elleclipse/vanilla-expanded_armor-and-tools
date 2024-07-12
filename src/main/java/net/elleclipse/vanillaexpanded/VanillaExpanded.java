@@ -1,5 +1,7 @@
 package net.elleclipse.vanillaexpanded;
 
+import net.elleclipse.vanillaexpanded.item.ModItemGroups;
+import net.elleclipse.vanillaexpanded.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -13,5 +15,8 @@ public class VanillaExpanded implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Vanilla Expanded has loaded");
+
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
 	}
 }
