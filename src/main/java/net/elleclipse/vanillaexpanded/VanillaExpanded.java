@@ -18,5 +18,6 @@ public class VanillaExpanded implements ModInitializer {
 
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+
 	}
 }

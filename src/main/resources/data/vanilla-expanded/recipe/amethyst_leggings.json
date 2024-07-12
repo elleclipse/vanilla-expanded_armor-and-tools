@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "###",
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "vanilla-expanded:reinforced_amethyst_shard"
+    }
+  },
+  "result": {
+    "id": "vanilla-expanded:amethyst_leggings",
+    "count": 1
+  }
+}

@@ -4,6 +4,7 @@ import net.elleclipse.vanillaexpanded.VanillaExpanded;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
@@ -20,7 +21,13 @@ public class ModItemGroups {
                 entries.add(ModItems.AMETHYST_LEGGINGS);
                 entries.add(ModItems.AMETHYST_BOOTS);
                 entries.add(ModItems.AMETHYST_DUST);
+                entries.add(ModItems.OBSIDIAN_DUST);
+                entries.add(ModItems.REINFORCED_AMETHYST_DUST);
+                entries.add(ModItems.REINFORCED_AMETHYST_SHARD);
+
             }).build());
+
+
 
     public static void registerItemGroups(){
         VanillaExpanded.LOGGER.info("Registering item groups for " + VanillaExpanded.MOD_ID);

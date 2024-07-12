@@ -7,6 +7,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
+import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -18,8 +19,12 @@ public class ModItems {
     public static final Item AMETHYST_LEGGINGS = register(new ArmorItem(ModArmorMaterial.AMETHYST, ArmorItem.Type.LEGGINGS, new Item.Settings()), "amethyst_leggings");
     public static final Item AMETHYST_BOOTS = register(new ArmorItem(ModArmorMaterial.AMETHYST, ArmorItem.Type.BOOTS, new Item.Settings()), "amethyst_boots");
     public static final Item AMETHYST_DUST = register(new Item(new Item.Settings()),"amethyst_dust");
+    public static final Item OBSIDIAN_DUST = register(new Item(new Item.Settings()),"obsidian_dust");
+    public static final Item REINFORCED_AMETHYST_DUST = register(new Item(new Item.Settings()),"reinforced_amethyst_dust");
+    public static final Item REINFORCED_AMETHYST_SHARD = register(new Item(new Item.Settings()),"reinforced_amethyst_shard");
 
     private static void addItemsToCombatMenu(FabricItemGroupEntries entries){
+
     }
 
     public static Item register(Item item, String id) {

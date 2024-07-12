@@ -1,9 +1,12 @@
 {
   "item.vanilla-expanded.amethyst_helmet": "Amethyst Helmet",
-  "item.vanilla-expanded.amethyst_dust": "Amethyst Dust",
   "item.vanilla-expanded.amethyst_chestplate": "Amethyst Chestplate",
   "item.vanilla-expanded.amethyst_leggings": "Amethyst Leggings",
   "item.vanilla-expanded.amethyst_boots": "Amethyst Boots",
+  "item.vanilla-expanded.amethyst_dust": "Amethyst Dust",
+  "item.vanilla-expanded.obsidian_dust": "Obsidian Dust",
+  "item.vanilla-expanded.reinforced_amethyst_dust": "Reinforced Amethyst Dust",
+  "item.vanilla-expanded.reinforced_amethyst_shard": "Reinforced Amethyst Shard",
 
   "itemgroup.amethyst_combat": "Vanilla Expanded Items"
 }
