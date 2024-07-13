@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "AA ",
+    "AT ",
+    " T "
+  ],
+  "key": {
+    "A": {
+      "item": "vanilla-expanded:reinforced_amethyst_shard"
+    },
+    "T": {
+      "item": "minecraft:tuff"
+    }
+  },
+  "result": {
+    "id": "vanilla-expanded:amethyst_axe",
+    "count": 1
+  }
+}

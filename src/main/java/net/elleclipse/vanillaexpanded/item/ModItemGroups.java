@@ -24,6 +24,11 @@ public class ModItemGroups {
                 entries.add(ModItems.OBSIDIAN_DUST);
                 entries.add(ModItems.REINFORCED_AMETHYST_DUST);
                 entries.add(ModItems.REINFORCED_AMETHYST_SHARD);
+                entries.add(ModItems.AMETHYST_PICKAXE);
+                entries.add(ModItems.AMETHYST_AXE);
+                entries.add(ModItems.AMETHYST_SWORD);
+                entries.add(ModItems.AMETHYST_HOE);
+                entries.add(ModItems.AMETHYST_SHOVEL);
 
             }).build());
 

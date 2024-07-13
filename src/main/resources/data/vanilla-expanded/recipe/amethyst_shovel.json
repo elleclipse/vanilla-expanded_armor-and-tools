@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " A ",
+    " T ",
+    " T "
+  ],
+  "key": {
+    "A": {
+      "item": "vanilla-expanded:reinforced_amethyst_shard"
+    },
+    "T": {
+      "item": "minecraft:tuff"
+    }
+  },
+  "result": {
+    "id": "vanilla-expanded:amethyst_shovel",
+    "count": 1
+  }
+}
