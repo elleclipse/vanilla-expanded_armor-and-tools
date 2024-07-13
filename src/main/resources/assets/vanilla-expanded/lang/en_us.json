@@ -14,6 +14,10 @@
   "item.vanilla-expanded.amethyst_hoe": "Amethyst Hoe",
   "item.vanilla-expanded.tuff_rod": "Tuff Rod",
 
+  "item.vanilla-expanded.copper_helmet": "Copper Helmet",
+  "item.vanilla-expanded.copper_chestplate": "Copper Chestplate",
+  "item.vanilla-expanded.copper_leggings": "Copper Leggings",
+  "item.vanilla-expanded.copper_boots": "Copper Boots",
 
   "itemgroup.amethyst_combat": "Vanilla Expanded Items"
 }
