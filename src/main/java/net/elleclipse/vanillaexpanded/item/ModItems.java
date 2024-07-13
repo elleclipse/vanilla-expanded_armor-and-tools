@@ -18,6 +18,7 @@ public class ModItems {
     public static final Item AMETHYST_BOOTS = register(new ArmorItem(ModArmorMaterial.AMETHYST, ArmorItem.Type.BOOTS, new Item.Settings()), "amethyst_boots");
     public static final Item AMETHYST_DUST = register(new Item(new Item.Settings()),"amethyst_dust");
     public static final Item OBSIDIAN_DUST = register(new Item(new Item.Settings()),"obsidian_dust");
+    public static final Item TUFF_ROD = register(new Item(new Item.Settings()), "tuff_rod");
     public static final Item REINFORCED_AMETHYST_DUST = register(new Item(new Item.Settings()),"reinforced_amethyst_dust");
     public static final Item REINFORCED_AMETHYST_SHARD = register(new Item(new Item.Settings()),"reinforced_amethyst_shard");
     public static final Item AMETHYST_PICKAXE = register(new PickaxeItem(ModToolMaterial.AMETHYST, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(
@@ -35,6 +36,13 @@ public class ModItems {
     public static final Item AMETHYST_HOE = register(new HoeItem(ModToolMaterial.AMETHYST, new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(
             ModToolMaterial.AMETHYST, -3, -3.5F
     ))),"amethyst_hoe");
+
+
+    public static final Item COPPER_HELMET = register(new ArmorItem(ModArmorMaterial.COPPER, ArmorItem.Type.HELMET, new Item.Settings()), "copper_helmet");
+    public static final Item COPPER_CHESTPLATE = register(new ArmorItem(ModArmorMaterial.COPPER, ArmorItem.Type.CHESTPLATE, new Item.Settings()), "copper_chestplate");
+    public static final Item COPPER_LEGGINGS = register(new ArmorItem(ModArmorMaterial.COPPER, ArmorItem.Type.LEGGINGS, new Item.Settings()), "copper_leggings");
+    public static final Item COPPER_BOOTS = register(new ArmorItem(ModArmorMaterial.COPPER, ArmorItem.Type.BOOTS, new Item.Settings()), "copper_boots");
+
 
 
     private static void addItemsToCombatMenu(FabricItemGroupEntries entries){

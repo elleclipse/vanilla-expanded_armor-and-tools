@@ -4,6 +4,7 @@ import net.elleclipse.vanillaexpanded.VanillaExpanded;
 import net.elleclipse.vanillaexpanded.item.ModItems;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
+import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -31,11 +32,52 @@ public class ModArmorMaterial {
             // The sound played when the armor is equipped.
             SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,
             // The ingredient(s) used to repair the armor.
-            () -> Ingredient.ofItems(ModItems.AMETHYST_DUST),
+            () -> Ingredient.ofItems(ModItems.REINFORCED_AMETHYST_SHARD),
             0.5F,
             0.7F,
             // NOT dyeable, so we will pass false.
-            false);
+            false
+    );
+
+    public static final RegistryEntry<ArmorMaterial> COPPER = registerMaterial("copper",
+            // Defense (protection) point values for each armor piece.
+            Map.of(
+                    ArmorItem.Type.HELMET, 1,
+                    ArmorItem.Type.CHESTPLATE, 5,
+                    ArmorItem.Type.LEGGINGS, 3,
+                    ArmorItem.Type.BOOTS, 1
+            ),
+            // Enchantability. For reference, leather has 15, iron has 9, and diamond has 10.
+            12,
+            // The sound played when the armor is equipped.
+            SoundEvents.ITEM_ARMOR_EQUIP_IRON,
+            // The ingredient(s) used to repair the armor.
+            () -> Ingredient.ofItems(Items.COPPER_INGOT),
+            0.1F,
+            0F,
+            // NOT dyeable, so we will pass false.
+            false
+    );
+
+    public static final RegistryEntry<ArmorMaterial> EMERALD = registerMaterial("emerald",
+            // Defense (protection) point values for each armor piece.
+            Map.of(
+                    ArmorItem.Type.HELMET, 2,
+                    ArmorItem.Type.CHESTPLATE, 5,
+                    ArmorItem.Type.LEGGINGS, 4,
+                    ArmorItem.Type.BOOTS, 2
+            ),
+            // Enchantability. For reference, leather has 15, iron has 9, and diamond has 10.
+            10,
+            // The sound played when the armor is equipped.
+            SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
+            // The ingredient(s) used to repair the armor.
+            () -> Ingredient.ofItems(Items.EMERALD),
+            0.2F,
+            0.3F,
+            // NOT dyeable, so we will pass false.
+            false
+    );
 
     public static RegistryEntry<ArmorMaterial> registerMaterial(
             String id,

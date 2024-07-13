@@ -29,6 +29,11 @@ public class ModItemGroups {
                 entries.add(ModItems.AMETHYST_SWORD);
                 entries.add(ModItems.AMETHYST_HOE);
                 entries.add(ModItems.AMETHYST_SHOVEL);
+                entries.add(ModItems.TUFF_ROD);
+                entries.add(ModItems.COPPER_CHESTPLATE);
+                entries.add(ModItems.COPPER_LEGGINGS);
+                entries.add(ModItems.COPPER_HELMET);
+                entries.add(ModItems.COPPER_BOOTS);
 
             }).build());
 
