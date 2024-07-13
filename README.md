@@ -1,1 +1,1 @@
-<div align="center">![Vanilla Expanded Logo](./VanillaExpandedLogo.png)</div>
+<img align="center" src="./VanillaExpandedLogo.png" alt="Vanilla Expanded Logo"/>
