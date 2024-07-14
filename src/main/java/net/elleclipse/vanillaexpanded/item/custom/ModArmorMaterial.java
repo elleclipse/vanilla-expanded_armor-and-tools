@@ -22,9 +22,9 @@ public class ModArmorMaterial {
     public static final RegistryEntry<ArmorMaterial> AMETHYST = registerMaterial("amethyst",
             // Defense (protection) point values for each armor piece.
             Map.of(
-                    ArmorItem.Type.HELMET, 2,
+                    ArmorItem.Type.HELMET, 4,
                     ArmorItem.Type.CHESTPLATE, 8,
-                    ArmorItem.Type.LEGGINGS, 6,
+                    ArmorItem.Type.LEGGINGS, 7,
                     ArmorItem.Type.BOOTS, 3
             ),
             // Enchantability. For reference, leather has 15, iron has 9, and diamond has 10.
@@ -42,10 +42,10 @@ public class ModArmorMaterial {
     public static final RegistryEntry<ArmorMaterial> COPPER = registerMaterial("copper",
             // Defense (protection) point values for each armor piece.
             Map.of(
-                    ArmorItem.Type.HELMET, 1,
-                    ArmorItem.Type.CHESTPLATE, 5,
-                    ArmorItem.Type.LEGGINGS, 3,
-                    ArmorItem.Type.BOOTS, 1
+                    ArmorItem.Type.HELMET, 3,
+                    ArmorItem.Type.CHESTPLATE, 7,
+                    ArmorItem.Type.LEGGINGS, 5,
+                    ArmorItem.Type.BOOTS, 2
             ),
             // Enchantability. For reference, leather has 15, iron has 9, and diamond has 10.
             12,
@@ -62,9 +62,9 @@ public class ModArmorMaterial {
     public static final RegistryEntry<ArmorMaterial> EMERALD = registerMaterial("emerald",
             // Defense (protection) point values for each armor piece.
             Map.of(
-                    ArmorItem.Type.HELMET, 2,
-                    ArmorItem.Type.CHESTPLATE, 5,
-                    ArmorItem.Type.LEGGINGS, 4,
+                    ArmorItem.Type.HELMET, 3,
+                    ArmorItem.Type.CHESTPLATE, 7,
+                    ArmorItem.Type.LEGGINGS, 6,
                     ArmorItem.Type.BOOTS, 2
             ),
             // Enchantability. For reference, leather has 15, iron has 9, and diamond has 10.

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "EEE",
+    "E E",
+    "   "
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:emerald"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "vanilla-expanded:emerald_helmet",
+    "count": 1
+  }
+}

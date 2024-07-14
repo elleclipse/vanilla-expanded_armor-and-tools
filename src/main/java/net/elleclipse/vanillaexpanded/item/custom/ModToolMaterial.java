@@ -11,9 +11,9 @@ import net.minecraft.registry.tag.TagKey;
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    AMETHYST(BlockTags.INCORRECT_FOR_DIAMOND_TOOL, 1800,9,18,8, () -> Ingredient.ofItems(ModItems.REINFORCED_AMETHYST_SHARD)),
-    EMERALD(BlockTags.INCORRECT_FOR_IRON_TOOL, 700,6,13,4, () -> Ingredient.ofItems(Items.EMERALD)),
-    COPPER(BlockTags.INCORRECT_FOR_IRON_TOOL, 850,7,16,5, () -> Ingredient.ofItems(Items.COPPER_INGOT));
+    AMETHYST(BlockTags.INCORRECT_FOR_DIAMOND_TOOL, 1800,9,18,-1, () -> Ingredient.ofItems(ModItems.REINFORCED_AMETHYST_SHARD)),
+    EMERALD(BlockTags.INCORRECT_FOR_IRON_TOOL, 500,11,13,-1, () -> Ingredient.ofItems(Items.EMERALD)),
+    COPPER(BlockTags.INCORRECT_FOR_IRON_TOOL, 700,6,16,-1, () -> Ingredient.ofItems(Items.COPPER_INGOT));
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;

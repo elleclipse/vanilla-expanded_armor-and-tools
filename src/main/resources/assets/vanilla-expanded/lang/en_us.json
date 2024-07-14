@@ -18,6 +18,22 @@
   "item.vanilla-expanded.copper_chestplate": "Copper Chestplate",
   "item.vanilla-expanded.copper_leggings": "Copper Leggings",
   "item.vanilla-expanded.copper_boots": "Copper Boots",
+  "item.vanilla-expanded.copper_sword": "Copper Sword",
+  "item.vanilla-expanded.copper_shovel": "Copper Shovel",
+  "item.vanilla-expanded.copper_pickaxe": "Copper Pickaxe",
+  "item.vanilla-expanded.copper_axe": "Copper Axe",
+  "item.vanilla-expanded.copper_hoe": "Copper Hoe",
+
+
+  "item.vanilla-expanded.emerald_helmet": "Emerald Helmet",
+  "item.vanilla-expanded.emerald_chestplate": "Emerald Chestplate",
+  "item.vanilla-expanded.emerald_leggings": "Emerald Leggings",
+  "item.vanilla-expanded.emerald_boots": "Emerald Boots",
+  "item.vanilla-expanded.emerald_sword": "Emerald Sword",
+  "item.vanilla-expanded.emerald_shovel": "Emerald Shovel",
+  "item.vanilla-expanded.emerald_pickaxe": "Emerald Pickaxe",
+  "item.vanilla-expanded.emerald_axe": "Emerald Axe",
+  "item.vanilla-expanded.emerald_hoe": "Emerald Hoe",
 
   "itemgroup.amethyst_combat": "Vanilla Expanded Items"
 }

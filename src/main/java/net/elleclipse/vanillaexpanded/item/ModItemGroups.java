@@ -29,11 +29,28 @@ public class ModItemGroups {
                 entries.add(ModItems.AMETHYST_SWORD);
                 entries.add(ModItems.AMETHYST_HOE);
                 entries.add(ModItems.AMETHYST_SHOVEL);
+
                 entries.add(ModItems.TUFF_ROD);
+
                 entries.add(ModItems.COPPER_CHESTPLATE);
                 entries.add(ModItems.COPPER_LEGGINGS);
                 entries.add(ModItems.COPPER_HELMET);
                 entries.add(ModItems.COPPER_BOOTS);
+                entries.add(ModItems.COPPER_PICKAXE);
+                entries.add(ModItems.COPPER_AXE);
+                entries.add(ModItems.COPPER_SWORD);
+                entries.add(ModItems.COPPER_HOE);
+                entries.add(ModItems.COPPER_SHOVEL);
+
+                entries.add(ModItems.EMERALD_CHESTPLATE);
+                entries.add(ModItems.EMERALD_LEGGINGS);
+                entries.add(ModItems.EMERALD_HELMET);
+                entries.add(ModItems.EMERALD_BOOTS);
+                entries.add(ModItems.EMERALD_PICKAXE);
+                entries.add(ModItems.EMERALD_AXE);
+                entries.add(ModItems.EMERALD_SWORD);
+                entries.add(ModItems.EMERALD_HOE);
+                entries.add(ModItems.EMERALD_SHOVEL);
 
             }).build());
 
