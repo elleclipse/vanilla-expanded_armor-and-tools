@@ -32,7 +32,7 @@ public class ModArmorMaterial {
             // The sound played when the armor is equipped.
             SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,
             // The ingredient(s) used to repair the armor.
-            () -> Ingredient.ofItems(ModItems.REINFORCED_AMETHYST_SHARD),
+            () -> Ingredient.ofItems(Items.AMETHYST_CLUSTER),
             0.5F,
             0.7F,
             // NOT dyeable, so we will pass false.

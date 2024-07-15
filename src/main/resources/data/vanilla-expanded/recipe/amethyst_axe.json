@@ -1,21 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "equipment",
-  "pattern": [
-    "AA ",
-    "AT ",
-    " T "
-  ],
-  "key": {
-    "A": {
-      "item": "vanilla-expanded:reinforced_amethyst_shard"
-    },
-    "T": {
-      "item": "vanilla-expanded:tuff_rod"
-    }
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:amethyst_cluster"
+  },
+  "base": {
+    "item": "minecraft:diamond_axe"
   },
   "result": {
-    "id": "vanilla-expanded:amethyst_axe",
-    "count": 1
+    "count": 1,
+    "id": "vanilla-expanded:amethyst_axe"
+  },
+  "template": {
+    "item": "vanilla-expanded:amethyst_upgrade_smithing_template"
   }
 }

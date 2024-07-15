@@ -8,7 +8,12 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.text.Text;
+import net.minecraft.util.Formatting;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Util;
+
+import java.util.List;
 
 
 public class ModItems {
@@ -16,11 +21,6 @@ public class ModItems {
     public static final Item AMETHYST_CHESTPLATE = register(new ArmorItem(ModArmorMaterial.AMETHYST, ArmorItem.Type.CHESTPLATE, new Item.Settings()), "amethyst_chestplate");
     public static final Item AMETHYST_LEGGINGS = register(new ArmorItem(ModArmorMaterial.AMETHYST, ArmorItem.Type.LEGGINGS, new Item.Settings()), "amethyst_leggings");
     public static final Item AMETHYST_BOOTS = register(new ArmorItem(ModArmorMaterial.AMETHYST, ArmorItem.Type.BOOTS, new Item.Settings()), "amethyst_boots");
-    public static final Item AMETHYST_DUST = register(new Item(new Item.Settings()),"amethyst_dust");
-    public static final Item OBSIDIAN_DUST = register(new Item(new Item.Settings()),"obsidian_dust");
-    public static final Item TUFF_ROD = register(new Item(new Item.Settings()), "tuff_rod");
-    public static final Item REINFORCED_AMETHYST_DUST = register(new Item(new Item.Settings()),"reinforced_amethyst_dust");
-    public static final Item REINFORCED_AMETHYST_SHARD = register(new Item(new Item.Settings()),"reinforced_amethyst_shard");
 
     public static final Item AMETHYST_PICKAXE = register(new PickaxeItem(ModToolMaterial.AMETHYST, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(
             ModToolMaterial.AMETHYST, 4, -3.5F
@@ -37,6 +37,35 @@ public class ModItems {
     public static final Item AMETHYST_HOE = register(new HoeItem(ModToolMaterial.AMETHYST, new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(
             ModToolMaterial.AMETHYST, 2, -3.5F
     ))),"amethyst_hoe");
+
+    private static final Formatting TITLE_FORMATTING = Formatting.GRAY;
+    private static final Formatting DESCRIPTION_FORMATTING = Formatting.BLUE;
+
+    public static final Item AMETHYST_UPGRADE_SMITHING_TEMPLATE = register(new SmithingTemplateItem(
+
+            Text.translatable("amethyst_upgrade_smithing_template_applies_to").formatted(DESCRIPTION_FORMATTING),//Diamond Equipment
+            Text.translatable("amethyst_upgrade_smithing_template_ingredient").formatted(DESCRIPTION_FORMATTING),//amethyst cluster
+            Text.translatable("amethyst_upgrade_smithing_template_title").formatted(TITLE_FORMATTING),//Amethyst Upgrade
+            Text.translatable("amethyst_upgrade_smithing_template_base_slot").formatted(DESCRIPTION_FORMATTING),//Add diamond armor, weapon, or tool
+            Text.translatable("amethyst_upgrade_smithing_template_additions").formatted(DESCRIPTION_FORMATTING),//Add amethyst cluster
+
+            List.of(
+                Identifier.ofVanilla("item/empty_armor_slot_helmet"),
+                Identifier.ofVanilla("item/empty_slot_sword"),
+                Identifier.ofVanilla("item/empty_armor_slot_chestplate"),
+                Identifier.ofVanilla("item/empty_slot_pickaxe"),
+                Identifier.ofVanilla("item/empty_armor_slot_leggings"),
+                Identifier.ofVanilla("item/empty_slot_axe"),
+                Identifier.ofVanilla("item/empty_armor_slot_boots"),
+                Identifier.ofVanilla("item/empty_slot_hoe"),
+                Identifier.ofVanilla("item/empty_slot_shovel")
+            ),
+
+            List.of(
+                Identifier.ofVanilla("item/empty_slot_ingot"))
+            ),
+
+            "amethyst_upgrade_smithing_template");
 
 
     public static final Item COPPER_HELMET = register(new ArmorItem(ModArmorMaterial.COPPER, ArmorItem.Type.HELMET, new Item.Settings()), "copper_helmet");
