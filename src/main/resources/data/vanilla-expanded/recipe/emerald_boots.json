@@ -7,11 +7,8 @@
     "E E"
   ],
   "key": {
-    "C": {
+    "E": {
       "item": "minecraft:emerald"
-    },
-    "S": {
-      "item": "minecraft:stick"
     }
   },
   "result": {
