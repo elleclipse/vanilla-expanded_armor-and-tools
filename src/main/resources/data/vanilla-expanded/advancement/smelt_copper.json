@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:story/upgrade_tools",
+  "criteria": {
+    "copper": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements_story_smelt_copper_desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:copper_ingot"
+    },
+    "title": {
+      "translate": "advancements_story_smelt_copper_title"
+    }
+  },
+  "requirements": [
+    [
+      "copper"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

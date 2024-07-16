@@ -6,13 +6,18 @@ import net.elleclipse.vanillaexpanded.item.custom.ModToolMaterial;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
+import net.minecraft.item.trim.ArmorTrim;
+import net.minecraft.item.trim.ArmorTrimMaterial;
+import net.minecraft.item.trim.ArmorTrimMaterials;
+import net.minecraft.registry.*;
+import net.minecraft.registry.entry.RegistryEntry;
+import net.minecraft.text.Style;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Util;
 
+import java.util.Collections;
 import java.util.List;
 
 
@@ -110,6 +115,13 @@ public class ModItems {
     public static final Item EMERALD_HOE = register(new HoeItem(ModToolMaterial.EMERALD, new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(
             ModToolMaterial.EMERALD, 1, -3.5F
     ))),"emerald_hoe");
+
+
+    public static final Item TURTLE_SCUTE_CHESTPLATE = register(new ArmorItem(ModArmorMaterial.TURTLE_SCUTE, ArmorItem.Type.CHESTPLATE, new Item.Settings()), "turtle_scute_chestplate");
+    public static final Item TURTLE_SCUTE_LEGGINGS = register(new ArmorItem(ModArmorMaterial.TURTLE_SCUTE, ArmorItem.Type.LEGGINGS, new Item.Settings()), "turtle_scute_leggings");
+    public static final Item TURTLE_SCUTE_BOOTS = register(new ArmorItem(ModArmorMaterial.TURTLE_SCUTE, ArmorItem.Type.BOOTS, new Item.Settings()), "turtle_scute_boots");
+
+
 
     private static void addItemsToCombatMenu(FabricItemGroupEntries entries){
 

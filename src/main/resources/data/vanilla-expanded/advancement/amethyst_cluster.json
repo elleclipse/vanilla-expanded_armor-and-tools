@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:story/iron_tools",
+  "criteria": {
+    "amethyst_cluster": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:amethyst_cluster"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements_story_amethyst_cluster_desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:amethyst_cluster"
+    },
+    "title": {
+      "translate": "advancements_story_amethyst_cluster_title"
+    }
+  },
+  "requirements": [
+    [
+      "amethyst_cluster"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

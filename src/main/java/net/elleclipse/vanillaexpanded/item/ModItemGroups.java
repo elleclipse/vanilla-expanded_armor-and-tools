@@ -48,6 +48,11 @@ public class ModItemGroups {
                 entries.add(ModItems.EMERALD_HOE);
                 entries.add(ModItems.EMERALD_SHOVEL);
 
+                entries.add(ModItems.TURTLE_SCUTE_BOOTS);
+                entries.add(ModItems.TURTLE_SCUTE_LEGGINGS);
+                entries.add(ModItems.TURTLE_SCUTE_CHESTPLATE);
+
+
             }).build());
 
 

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "C C",
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:turtle_scute"
+    }
+  },
+  "result": {
+    "id": "vanilla-expanded:turtle_scute_leggings",
+    "count": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:story/iron_tools",
+  "criteria": {
+    "emerald": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:emerald"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements_story_acquire_emerald_desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "advancements_story_acquire_emerald_title"
+    }
+  },
+  "requirements": [
+    [
+      "emerald"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

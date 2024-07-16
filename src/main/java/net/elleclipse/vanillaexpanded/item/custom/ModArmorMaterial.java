@@ -79,6 +79,26 @@ public class ModArmorMaterial {
             false
     );
 
+    public static final RegistryEntry<ArmorMaterial> TURTLE_SCUTE = registerMaterial("turtle_scute",
+            // Defense (protection) point values for each armor piece.
+            Map.of(
+                    ArmorItem.Type.HELMET, 4,
+                    ArmorItem.Type.CHESTPLATE, 8,
+                    ArmorItem.Type.LEGGINGS, 7,
+                    ArmorItem.Type.BOOTS, 3
+            ),
+            // Enchantability. For reference, leather has 15, iron has 9, and diamond has 10.
+            15,
+            // The sound played when the armor is equipped.
+            SoundEvents.ITEM_ARMOR_EQUIP_LEATHER,
+            // The ingredient(s) used to repair the armor.
+            () -> Ingredient.ofItems(Items.TURTLE_SCUTE),
+            0.6F,
+            0.3F,
+            // NOT dyeable, so we will pass false.
+            false
+    );
+
     public static RegistryEntry<ArmorMaterial> registerMaterial(
             String id,
             Map<ArmorItem.Type, Integer> defensePoints,

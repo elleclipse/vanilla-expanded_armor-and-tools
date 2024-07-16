@@ -1,0 +1,66 @@
+{
+  "parent": "vanilla-expanded:smelt_copper",
+  "criteria": {
+    "copper_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanilla-expanded:copper_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "copper_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanilla-expanded:copper_chestplate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "copper_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanilla-expanded:copper_helmet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "copper_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanilla-expanded:copper_leggings"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements_story_copper_gear_desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "vanilla-expanded:copper_chestplate"
+    },
+    "title": {
+      "translate": "advancements_story_copper_gear_title"
+    }
+  },
+  "requirements": [
+    [
+      "copper_helmet",
+      "copper_chestplate",
+      "copper_leggings",
+      "copper_boots"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "vanilla-expanded:amethyst_cluster",
+  "criteria": {
+    "amethyst_tablet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanilla-expanded:amethyst_upgrade_smithing_template"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements_story_amethyst_tablet_desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "vanilla-expanded:amethyst_upgrade_smithing_template"
+    },
+    "title": {
+      "translate": "advancements_story_amethyst_tablet_title"
+    }
+  },
+  "requirements": [
+    [
+      "amethyst_tablet"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

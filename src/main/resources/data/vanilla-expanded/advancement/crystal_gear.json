@@ -1,0 +1,46 @@
+{
+  "parent": "vanilla-expanded:amethyst_tablet",
+  "criteria": {
+    "crystal_gear": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanilla-expanded:amethyst_helmet"
+          },
+          {
+            "items": "vanilla-expanded:amethyst_chestplate"
+          },
+          {
+            "items": "vanilla-expanded:amethyst_leggings"
+          },
+          {
+            "items": "vanilla-expanded:amethyst_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements_story_crystal_gear_desc"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "vanilla-expanded:amethyst_chestplate"
+    },
+    "title": {
+      "translate": "advancements_story_crystal_gear_title"
+    }
+  },
+  "requirements": [
+    [
+      "crystal_gear"
+    ]
+  ],
+  "rewards": {
+    "experience": 70
+  },
+  "sends_telemetry_event": true
+}

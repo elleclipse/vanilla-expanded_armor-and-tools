@@ -1,0 +1,46 @@
+{
+  "parent": "vanilla-expanded:acquire_emerald",
+  "criteria": {
+    "emerald_gear": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanilla-expanded:emerald_helmet"
+          },
+          {
+            "items": "vanilla-expanded:emerald_chestplate"
+          },
+          {
+            "items": "vanilla-expanded:emerald_leggings"
+          },
+          {
+            "items": "vanilla-expanded:emerald_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements_story_emerald_gear_desc"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "vanilla-expanded:emerald_chestplate"
+    },
+    "title": {
+      "translate": "advancements_story_emerald_gear_title"
+    }
+  },
+  "requirements": [
+    [
+      "emerald_gear"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": true
+}

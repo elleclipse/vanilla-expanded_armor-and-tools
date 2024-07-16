@@ -16,6 +16,8 @@
   "amethyst_upgrade_smithing_template_base_slot": "Add diamond armor, weapon, or tool",
   "amethyst_upgrade_smithing_template_additions": "Add amethyst cluster",
 
+  "trim_material.vanilla-expanded.blaze_powder": "Blaze Powder Material",
+
   "item.vanilla-expanded.copper_helmet": "Copper Helmet",
   "item.vanilla-expanded.copper_chestplate": "Copper Chestplate",
   "item.vanilla-expanded.copper_leggings": "Copper Leggings",
@@ -37,5 +39,32 @@
   "item.vanilla-expanded.emerald_axe": "Emerald Axe",
   "item.vanilla-expanded.emerald_hoe": "Emerald Hoe",
 
-  "itemgroup.amethyst_combat": "Vanilla Expanded Items"
+  "item.vanilla-expanded.turtle_scute_chestplate": "Turtle Scute Chestplate",
+  "item.vanilla-expanded.turtle_scute_leggings": "Turtle Scute Leggings",
+  "item.vanilla-expanded.turtle_scute_boots": "Turtle Scute Boots",
+
+  "itemgroup.amethyst_combat": "Vanilla Expanded Items",
+
+  "advancements_story_crystal_gear_desc": "Equip a full set of Amethyst armor",
+  "advancements_story_crystal_gear_title": "Covered In Crystals",
+
+  "advancements_story_amethyst_cluster_desc": "Obtain an amethyst cluster",
+  "advancements_story_amethyst_cluster_title": "Clusters For What?",
+
+  "advancements_story_amethyst_tablet_desc": "Obtain an amethyst smithing template",
+  "advancements_story_amethyst_tablet_title": "Amethyst Armor?",
+
+  "advancements_story_smelt_copper_desc": "Smelt raw copper",
+  "advancements_story_smelt_copper_title": "Copper Ingots",
+
+  "advancements_story_copper_gear_desc": "Craft a piece of copper armor",
+  "advancements_story_copper_gear_title": "Copper Armor",
+
+  "advancements_story_acquire_emerald_desc": "Obtain an emerald",
+  "advancements_story_acquire_emerald_title": "Acquire Emeralds",
+
+  "advancements_story_emerald_gear_desc": "Craft a full set of emerald armor",
+  "advancements_story_emerald_gear_title": "Hero's Wear Emeralds"
+
+
 }
