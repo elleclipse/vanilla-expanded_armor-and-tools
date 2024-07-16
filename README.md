@@ -1,5 +1,5 @@
 <div align="center">
-  <img align="center" src="./combat_continunity.png" alt="Vanilla Expanded x Combat Continuity Logo"/>
+  <img align="center" src="combat_continuity.png" alt="Vanilla Expanded x Combat Continuity Logo"/>
 </div>
 
 # <h1 align="center"> What is Combat Continuity? </h1>
