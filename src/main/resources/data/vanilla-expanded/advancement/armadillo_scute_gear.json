@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "armadillo_scute_gear": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanilla-expanded:armadillo_scute_chestplate"
+          },
+          {
+            "items": "vanilla-expanded:armadillo_scute_helmet"
+          },
+          {
+            "items": "vanilla-expanded:armadillo_scute_leggings"
+          },
+          {
+            "items": "vanilla-expanded:armadillo_scute_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements_story_armadillo_scute_gear_desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "vanilla-expanded:armadillo_scute_chestplate"
+    },
+    "title": {
+      "translate": "advancements_story_armadillo_scute_gear_title"
+    }
+  },
+  "requirements": [
+    [
+      "armadillo_scute_gear"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -83,10 +83,10 @@ public class ModArmorMaterial {
     public static final RegistryEntry<ArmorMaterial> TURTLE_SCUTE = registerMaterial("turtle_scute",
             // Defense (protection) point values for each armor piece.
             Map.of(
-                    ArmorItem.Type.HELMET, 4,
-                    ArmorItem.Type.CHESTPLATE, 8,
-                    ArmorItem.Type.LEGGINGS, 7,
-                    ArmorItem.Type.BOOTS, 3
+                    ArmorItem.Type.HELMET, 2,
+                    ArmorItem.Type.CHESTPLATE, 5,
+                    ArmorItem.Type.LEGGINGS, 4,
+                    ArmorItem.Type.BOOTS, 2
             ),
             // Enchantability. For reference, leather has 15, iron has 9, and diamond has 10.
             15,
@@ -94,8 +94,27 @@ public class ModArmorMaterial {
             SoundEvents.ITEM_ARMOR_EQUIP_LEATHER,
             // The ingredient(s) used to repair the armor.
             () -> Ingredient.ofItems(Items.TURTLE_SCUTE),
-            0.6F,
-            0.3F,
+            0.5F,
+            0F,
+            // NOT dyeable, so we will pass false.
+            false
+    );
+    public static final RegistryEntry<ArmorMaterial> ARMADILLO_SCUTE = registerMaterial("armadillo_scute",
+            // Defense (protection) point values for each armor piece.
+            Map.of(
+                    ArmorItem.Type.HELMET, 2,
+                    ArmorItem.Type.CHESTPLATE, 5,
+                    ArmorItem.Type.LEGGINGS, 4,
+                    ArmorItem.Type.BOOTS, 2
+            ),
+            // Enchantability. For reference, leather has 15, iron has 9, and diamond has 10.
+            15,
+            // The sound played when the armor is equipped.
+            SoundEvents.ITEM_ARMOR_EQUIP_LEATHER,
+            // The ingredient(s) used to repair the armor.
+            () -> Ingredient.ofItems(Items.ARMADILLO_SCUTE),
+            0.5F,
+            0F,
             // NOT dyeable, so we will pass false.
             false
     );

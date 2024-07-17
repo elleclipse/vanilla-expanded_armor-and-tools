@@ -44,6 +44,11 @@
   "item.vanilla-expanded.turtle_scute_leggings": "Turtle Scute Leggings",
   "item.vanilla-expanded.turtle_scute_boots": "Turtle Scute Boots",
 
+  "item.vanilla-expanded.armadillo_scute_helmet": "Armadillo Helmet",
+  "item.vanilla-expanded.armadillo_scute_chestplate": "Armadillo Chestplate",
+  "item.vanilla-expanded.armadillo_scute_leggings": "Armadillo Leggings",
+  "item.vanilla-expanded.armadillo_scute_boots": "Armadillo Boots",
+
   "itemgroup.amethyst_combat": "Vanilla Expanded Items",
 
   "advancements_story_crystal_gear_desc": "Craft a full set of Amethyst armor",
@@ -71,7 +76,10 @@
   "advancements_story_acquire_turtle_scute_title": "To Scute Or Not To Scute",
 
   "advancements_story_turtle_scute_gear_desc": "Craft a full set of turtle scute armor",
-  "advancements_story_turtle_scute_gear_title": "A Shell To Protect"
+  "advancements_story_turtle_scute_gear_title": "A Shell To Protect",
+
+  "advancements_story_armadillo_scute_gear_desc": "Craft a full set of armadillo scute armor",
+  "advancements_story_armadillo_scute_gear_title": "An Armadillo A Day Keeps The Mobs Away"
 
 
 }

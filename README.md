@@ -19,7 +19,7 @@
 - [x] Emerald
 - [x] Amethyst
 - [x] Turtle Scute
-- [ ] Armadillo Scute
+- [x] Armadillo Scute
 - [ ] Wither Skeleton 
 - [ ] Skeleton
 - [ ] Echo Shard
@@ -44,3 +44,4 @@
 - [x] Covered In Crystals : *<sub><sup> Craft a full set of Amethyst armor</sup></sub>*
 - [x] To Scute Or Not To Scute : *<sub><sup> Obtain a turtle scute</sup></sub>*
 - [x] A Shell To Protect : *<sub><sup> Craft a full set of turtle scute gear</sup></sub>*
+- [x] An Armadillo A Day Keeps The Mobs Away : *<sub><sup> Craft a full set of armadillo scute gear</sup></sub>*

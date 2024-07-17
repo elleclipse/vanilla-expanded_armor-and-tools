@@ -54,6 +54,11 @@ public class ModItemGroups {
 
                 entries.add(ModItems.WITHERED_BONE);
 
+                entries.add(ModItems.ARMADILLO_SCUTE_HELMET);
+                entries.add(ModItems.ARMADILLO_SCUTE_BOOTS);
+                entries.add(ModItems.ARMADILLO_SCUTE_LEGGINGS);
+                entries.add(ModItems.ARMADILLO_SCUTE_CHESTPLATE);
+
 
             }).build());
 
