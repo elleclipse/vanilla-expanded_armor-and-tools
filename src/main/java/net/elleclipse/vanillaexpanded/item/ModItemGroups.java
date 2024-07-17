@@ -52,6 +52,8 @@ public class ModItemGroups {
                 entries.add(ModItems.TURTLE_SCUTE_LEGGINGS);
                 entries.add(ModItems.TURTLE_SCUTE_CHESTPLATE);
 
+                entries.add(ModItems.WITHERED_BONE);
+
 
             }).build());
 

@@ -1,5 +1,6 @@
 package net.elleclipse.vanillaexpanded.item.custom;
 
+import io.netty.handler.ssl.util.InsecureTrustManagerFactory;
 import net.elleclipse.vanillaexpanded.VanillaExpanded;
 import net.elleclipse.vanillaexpanded.item.ModItems;
 import net.minecraft.item.ArmorItem;

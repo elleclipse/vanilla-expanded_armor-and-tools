@@ -1,0 +1,42 @@
+{
+  "parent": "vanilla-expanded:acquire_turtle_scute",
+  "criteria": {
+    "turtle_scute_gear": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanilla-expanded:turtle_scute_chestplate"
+          },
+          {
+            "items": "minecraft:turtle_helmet"
+          },
+          {
+            "items": "vanilla-expanded:turtle_scute_leggings"
+          },
+          {
+            "items": "vanilla-expanded:turtle_scute_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements_story_turtle_scute_gear_desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "vanilla-expanded:turtle_scute_chestplate"
+    },
+    "title": {
+      "translate": "advancements_story_turtle_scute_gear_title"
+    }
+  },
+  "requirements": [
+    [
+      "turtle_scute_gear"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -8,7 +8,8 @@
   "item.vanilla-expanded.amethyst_sword": "Amethyst Sword",
   "item.vanilla-expanded.amethyst_shovel": "Amethyst Shovel",
   "item.vanilla-expanded.amethyst_hoe": "Amethyst Hoe",
-  "item.vanilla-expanded.tuff_rod": "Tuff Rod",
+  "item.vanilla-expanded.withered_bone": "Withered Bone",
+
   "item.vanilla-expanded.amethyst_upgrade_smithing_template": "Smithing Template",
   "amethyst_upgrade_smithing_template_applies_to": "Diamond Equipment",
   "amethyst_upgrade_smithing_template_ingredient": "Amethyst Cluster",
@@ -64,7 +65,13 @@
   "advancements_story_acquire_emerald_title": "Acquire Emeralds",
 
   "advancements_story_emerald_gear_desc": "Craft a full set of emerald armor",
-  "advancements_story_emerald_gear_title": "Hero's Wear Emeralds"
+  "advancements_story_emerald_gear_title": "Hero's Wear Emeralds",
+
+  "advancements_story_acquire_turtle_scute_desc": "Obtain a turtle scute",
+  "advancements_story_acquire_turtle_scute_title": "To Scute Or Not To Scute",
+
+  "advancements_story_turtle_scute_gear_desc": "Craft a full set of turtle scute armor",
+  "advancements_story_turtle_scute_gear_title": "A Shell To Protect"
 
 
 }

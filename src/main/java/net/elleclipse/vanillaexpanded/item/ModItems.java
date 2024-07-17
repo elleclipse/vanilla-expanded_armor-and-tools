@@ -121,7 +121,7 @@ public class ModItems {
     public static final Item TURTLE_SCUTE_LEGGINGS = register(new ArmorItem(ModArmorMaterial.TURTLE_SCUTE, ArmorItem.Type.LEGGINGS, new Item.Settings()), "turtle_scute_leggings");
     public static final Item TURTLE_SCUTE_BOOTS = register(new ArmorItem(ModArmorMaterial.TURTLE_SCUTE, ArmorItem.Type.BOOTS, new Item.Settings()), "turtle_scute_boots");
 
-
+    public static final Item WITHERED_BONE = register(new Item(new Item.Settings()),"withered_bone");
 
     private static void addItemsToCombatMenu(FabricItemGroupEntries entries){
 

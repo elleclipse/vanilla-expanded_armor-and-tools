@@ -30,7 +30,7 @@
 
 ### New Items:
 - [x] Amethyst Upgrade Smithing Template
-- [ ] Withered Bone
+- [x] Withered Bone
 
 ---
 
@@ -42,4 +42,5 @@
 - [x] Copper Armor : *<sub><sup> Craft a piece of copper armor</sup></sub>*
 - [x] Hero's Wear Emeralds : *<sub><sup> Craft a full set of emerald armor</sup></sub>*
 - [x] Covered In Crystals : *<sub><sup> Craft a full set of Amethyst armor</sup></sub>*
-- [ ] More to come...
+- [x] To Scute Or Not To Scute : *<sub><sup> Obtain a turtle scute</sup></sub>*
+- [x] A Shell To Protect : *<sub><sup> Craft a full set of turtle scute gear</sup></sub>*
