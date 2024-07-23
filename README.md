@@ -46,4 +46,4 @@
 - [x] A Shell To Protect : *<sub><sup> Craft a full set of turtle scute gear</sup></sub>*
 - [x] An Armadillo A Day Keeps The Mobs Away : *<sub><sup> Craft a full set of armadillo scute gear</sup></sub>*
 - [x] I Have A Bone To Pick With You! : *<sub><sup> Craft a full set of skeleton bone gear</sup></sub>*
-- [x] I Have A Wither To Gift To You! : *<sub><sup> Craft a full set of withered bone gear</sup></sub>*
+- [x] Wither Me This, Wither Me That : *<sub><sup> Craft a full set of withered bone gear</sup></sub>*
