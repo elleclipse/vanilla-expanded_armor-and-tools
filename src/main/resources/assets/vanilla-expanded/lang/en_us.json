@@ -49,6 +49,11 @@
   "item.vanilla-expanded.armadillo_scute_leggings": "Armadillo Leggings",
   "item.vanilla-expanded.armadillo_scute_boots": "Armadillo Boots",
 
+  "item.vanilla-expanded.skeleton_helmet": "Skeleton Helmet",
+  "item.vanilla-expanded.skeleton_chestplate": "Skeleton Chestplate",
+  "item.vanilla-expanded.skeleton_leggings": "Skeleton Leggings",
+  "item.vanilla-expanded.skeleton_boots": "Skeleton Boots",
+
   "itemgroup.amethyst_combat": "Vanilla Expanded Items",
 
   "advancements_story_crystal_gear_desc": "Craft a full set of Amethyst armor",
@@ -79,7 +84,10 @@
   "advancements_story_turtle_scute_gear_title": "A Shell To Protect",
 
   "advancements_story_armadillo_scute_gear_desc": "Craft a full set of armadillo scute armor",
-  "advancements_story_armadillo_scute_gear_title": "An Armadillo A Day Keeps The Mobs Away"
+  "advancements_story_armadillo_scute_gear_title": "An Armadillo A Day Keeps The Mobs Away",
+
+  "advancements_story_skeleton_gear_desc": "Craft a full set of skeleton bone armor",
+  "advancements_story_skeleton_gear_title": "I Have A Bone To Pick With You!"
 
 
 }

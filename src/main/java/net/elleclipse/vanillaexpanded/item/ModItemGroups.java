@@ -59,6 +59,11 @@ public class ModItemGroups {
                 entries.add(ModItems.ARMADILLO_SCUTE_LEGGINGS);
                 entries.add(ModItems.ARMADILLO_SCUTE_CHESTPLATE);
 
+                entries.add(ModItems.SKELETON_HELMET);
+                entries.add(ModItems.SKELETON_BOOTS);
+                entries.add(ModItems.SKELETON_LEGGINGS);
+                entries.add(ModItems.SKELETON_CHESTPLATE);
+
 
             }).build());
 

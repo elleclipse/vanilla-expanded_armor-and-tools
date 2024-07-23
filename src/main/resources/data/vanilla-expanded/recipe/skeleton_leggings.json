@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "CCC",
+    "C C",
+    "C C"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "id": "vanilla-expanded:skeleton_leggings",
+    "count": 1
+  }
+}

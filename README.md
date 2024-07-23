@@ -21,7 +21,7 @@
 - [x] Turtle Scute
 - [x] Armadillo Scute
 - [ ] Wither Skeleton 
-- [ ] Skeleton
+- [x] Skeleton
 - [ ] Echo Shard
 - [ ] Expanded Horse Armor
 - [ ] Expanded Wolf Armor
@@ -45,3 +45,4 @@
 - [x] To Scute Or Not To Scute : *<sub><sup> Obtain a turtle scute</sup></sub>*
 - [x] A Shell To Protect : *<sub><sup> Craft a full set of turtle scute gear</sup></sub>*
 - [x] An Armadillo A Day Keeps The Mobs Away : *<sub><sup> Craft a full set of armadillo scute gear</sup></sub>*
+- [x] I Have A Bone To Pick With You! : *<sub><sup> Craft a full set of skeleton bone gear</sup></sub>*
