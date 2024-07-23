@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "CCC",
+    "C C",
+    "C C"
+  ],
+  "key": {
+    "C": {
+      "item": "vanilla-expanded:withered_bone"
+    }
+  },
+  "result": {
+    "id": "vanilla-expanded:withered_leggings",
+    "count": 1
+  }
+}

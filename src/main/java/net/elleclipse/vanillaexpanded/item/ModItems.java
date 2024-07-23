@@ -134,6 +134,12 @@ public class ModItems {
     public static final Item SKELETON_HELMET = register(new ArmorItem(ModArmorMaterial.SKELETON, ArmorItem.Type.HELMET, new Item.Settings()), "skeleton_helmet");
 
 
+    public static final Item WITHERED_CHESTPLATE = register(new ArmorItem(ModArmorMaterial.WITHERED, ArmorItem.Type.CHESTPLATE, new Item.Settings()), "withered_chestplate");
+    public static final Item WITHERED_LEGGINGS = register(new ArmorItem(ModArmorMaterial.WITHERED, ArmorItem.Type.LEGGINGS, new Item.Settings()), "withered_leggings");
+    public static final Item WITHERED_BOOTS = register(new ArmorItem(ModArmorMaterial.WITHERED, ArmorItem.Type.BOOTS, new Item.Settings()), "withered_boots");
+    public static final Item WITHERED_HELMET = register(new ArmorItem(ModArmorMaterial.WITHERED, ArmorItem.Type.HELMET, new Item.Settings()), "withered_helmet");
+
+
     private static void addItemsToCombatMenu(FabricItemGroupEntries entries){
 
     }

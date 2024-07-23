@@ -64,6 +64,11 @@ public class ModItemGroups {
                 entries.add(ModItems.SKELETON_LEGGINGS);
                 entries.add(ModItems.SKELETON_CHESTPLATE);
 
+                entries.add(ModItems.WITHERED_HELMET);
+                entries.add(ModItems.WITHERED_BOOTS);
+                entries.add(ModItems.WITHERED_LEGGINGS);
+                entries.add(ModItems.WITHERED_CHESTPLATE);
+
 
             }).build());
 

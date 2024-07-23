@@ -54,6 +54,11 @@
   "item.vanilla-expanded.skeleton_leggings": "Skeleton Leggings",
   "item.vanilla-expanded.skeleton_boots": "Skeleton Boots",
 
+  "item.vanilla-expanded.withered_helmet": "Withered Helmet",
+  "item.vanilla-expanded.withered_chestplate": "Withered Chestplate",
+  "item.vanilla-expanded.withered_leggings": "Withered Leggings",
+  "item.vanilla-expanded.withered_boots": "Withered Boots",
+
   "itemgroup.amethyst_combat": "Vanilla Expanded Items",
 
   "advancements_story_crystal_gear_desc": "Craft a full set of Amethyst armor",
@@ -87,7 +92,10 @@
   "advancements_story_armadillo_scute_gear_title": "An Armadillo A Day Keeps The Mobs Away",
 
   "advancements_story_skeleton_gear_desc": "Craft a full set of skeleton bone armor",
-  "advancements_story_skeleton_gear_title": "I Have A Bone To Pick With You!"
+  "advancements_story_skeleton_gear_title": "I Have A Bone To Pick With You!",
+
+  "advancements_story_withered_gear_desc": "Craft a full set of withered bone armor",
+  "advancements_story_withered_gear_title": "I Have A Wither To Gift To You!"
 
 
 }

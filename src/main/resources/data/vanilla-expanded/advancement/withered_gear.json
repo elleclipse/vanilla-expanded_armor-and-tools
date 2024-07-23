@@ -1,0 +1,42 @@
+{
+  "parent": "vanilla-expanded:skeleton_gear",
+  "criteria": {
+    "withered_gear": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanilla-expanded:withered_helmet"
+          },
+          {
+            "items": "vanilla-expanded:withered_chestplate"
+          },
+          {
+            "items": "vanilla-expanded:withered_leggings"
+          },
+          {
+            "items": "vanilla-expanded:withered_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements_story_withered_gear_desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "vanilla-expanded:withered_chestplate"
+    },
+    "title": {
+      "translate": "advancements_story_withered_gear_title"
+    }
+  },
+  "requirements": [
+    [
+      "withered_gear"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

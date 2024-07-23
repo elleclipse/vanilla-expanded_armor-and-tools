@@ -137,7 +137,7 @@ public class ModArmorMaterial {
             // NOT dyeable, so we will pass false.
             false
     );
-    public static final RegistryEntry<ArmorMaterial> WTHERED = registerMaterial("withered_bone",
+    public static final RegistryEntry<ArmorMaterial> WITHERED = registerMaterial("withered",
             // Defense (protection) point values for each armor piece.
             Map.of(
                     ArmorItem.Type.HELMET, 6,
