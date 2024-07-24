@@ -22,9 +22,6 @@
 - [x] Armadillo Scute
 - [x] Wither Skeleton 
 - [x] Skeleton
-- [ ] Echo Shard
-- [ ] Expanded Horse Armor
-- [ ] Expanded Wolf Armor
 
 <div align="center">
   <img align="center" src="ArmorCollage.png" alt="Vanilla Expanded x Combat Continuity Armor"/>
