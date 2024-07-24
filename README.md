@@ -26,6 +26,10 @@
 - [ ] Expanded Horse Armor
 - [ ] Expanded Wolf Armor
 
+<div align="center">
+  <img align="center" src="ArmorCollage.png" alt="Vanilla Expanded x Combat Continuity Armor"/>
+</div>
+
 ---
 
 ### New Items:
