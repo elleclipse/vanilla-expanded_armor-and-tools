@@ -139,6 +139,31 @@ public class ModItems {
     public static final Item WITHERED_BOOTS = register(new ArmorItem(ModArmorMaterial.WITHERED, ArmorItem.Type.BOOTS, new Item.Settings()), "withered_boots");
     public static final Item WITHERED_HELMET = register(new ArmorItem(ModArmorMaterial.WITHERED, ArmorItem.Type.HELMET, new Item.Settings()), "withered_helmet");
 
+    public static final Item ECHO_SHARD_CHESTPLATE = register(new ArmorItem(ModArmorMaterial.ECHO_SHARD, ArmorItem.Type.CHESTPLATE, new Item.Settings()), "echo_shard_chestplate");
+    public static final Item ECHO_SHARD_LEGGINGS = register(new ArmorItem(ModArmorMaterial.ECHO_SHARD, ArmorItem.Type.LEGGINGS, new Item.Settings()), "echo_shard_leggings");
+    public static final Item ECHO_SHARD_BOOTS = register(new ArmorItem(ModArmorMaterial.ECHO_SHARD, ArmorItem.Type.BOOTS, new Item.Settings()), "echo_shard_boots");
+    public static final Item ECHO_SHARD_HELMET = register(new ArmorItem(ModArmorMaterial.ECHO_SHARD, ArmorItem.Type.HELMET, new Item.Settings()), "echo_shard_helmet");
+
+    public static final Item ECHO_SHARD_UPGRADE_SMITHING_TEMPLATE = register(new SmithingTemplateItem(
+
+                    Text.translatable("echo_shard_upgrade_smithing_template_applies_to").formatted(DESCRIPTION_FORMATTING),//Diamond Equipment
+                    Text.translatable("echo_shard_upgrade_smithing_template_ingredient").formatted(DESCRIPTION_FORMATTING),//amethyst cluster
+                    Text.translatable("echo_shard_upgrade_smithing_template_title").formatted(TITLE_FORMATTING),//Amethyst Upgrade
+                    Text.translatable("echo_shard_upgrade_smithing_template_base_slot").formatted(DESCRIPTION_FORMATTING),//Add diamond armor, weapon, or tool
+                    Text.translatable("echo_shard_upgrade_smithing_template_additions").formatted(DESCRIPTION_FORMATTING),//Add amethyst cluster
+
+                    List.of(
+                            Identifier.ofVanilla("item/empty_armor_slot_helmet"),
+                            Identifier.ofVanilla("item/empty_armor_slot_chestplate"),
+                            Identifier.ofVanilla("item/empty_armor_slot_leggings"),
+                            Identifier.ofVanilla("item/empty_armor_slot_boots")
+                    ),
+
+                    List.of(
+                            Identifier.ofVanilla("item/empty_slot_ingot"))
+            ),
+
+            "echo_shard_upgrade_smithing_template");
 
     private static void addItemsToCombatMenu(FabricItemGroupEntries entries){
 

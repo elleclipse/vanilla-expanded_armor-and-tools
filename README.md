@@ -15,13 +15,14 @@
 ---
 
 ### Armor & Tool Sets:
-- [x] Copper
-- [x] Emerald
-- [x] Amethyst
-- [x] Turtle Scute
-- [x] Armadillo Scute
-- [x] Wither Skeleton 
-- [x] Skeleton
+- [x] Copper : *<sub><sup> Armor & Tools </sup></sub>*
+- [x] Emerald : *<sub><sup> Armor & Tools </sup></sub>*
+- [x] Amethyst : *<sub><sup> Armor & Tools </sup></sub>*
+- [x] Turtle Scute : *<sub><sup> Armor </sup></sub>*
+- [x] Armadillo Scute : *<sub><sup> Armor </sup></sub>*
+- [x] Wither Skeleton : *<sub><sup> Armor </sup></sub>*
+- [x] Skeleton : *<sub><sup> Armor </sup></sub>*
+- [x] Echo Shard : *<sub><sup> Armor </sup></sub>*
 
 <div align="center">
   <img align="center" src="ArmorCollage.png" alt="Vanilla Expanded x Combat Continuity Armor"/>
@@ -30,8 +31,9 @@
 ---
 
 ### New Items:
-- [x] Amethyst Upgrade Smithing Template
-- [x] Withered Bone
+- [x] Echo Shard Upgrade Smithing Template : *<sub><sup> Found in ancient city chests</sup></sub>*
+- [x] Amethyst Upgrade Smithing Template : *<sub><sup> Found in abandoned mineshaft chests</sup></sub>*
+- [x] Withered Bone : *<sub><sup> Dropped by wither skeletons</sup></sub>*
 
 ---
 
@@ -48,3 +50,5 @@
 - [x] An Armadillo A Day Keeps The Mobs Away : *<sub><sup> Craft a full set of armadillo scute gear</sup></sub>*
 - [x] I Have A Bone To Pick With You! : *<sub><sup> Craft a full set of skeleton bone gear</sup></sub>*
 - [x] Wither Me This, Wither Me That : *<sub><sup> Craft a full set of withered bone gear</sup></sub>*
+- [x] Deep Dark Armor? : *<sub><sup> Obtain an echo shard smithing template</sup></sub>*
+- [x] An Echo In The Deep : *<sub><sup> Craft a full set of echo shard armor</sup></sub>*

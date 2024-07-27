@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:echo_shard"
+  },
+  "base": {
+    "item": "minecraft:netherite_helmet"
+  },
+  "result": {
+    "count": 1,
+    "id": "vanilla-expanded:echo_shard_helmet"
+  },
+  "template": {
+    "item": "vanilla-expanded:echo_shard_upgrade_smithing_template"
+  }
+}

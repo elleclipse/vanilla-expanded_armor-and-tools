@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "echo_shard_tablet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanilla-expanded:echo_shard_upgrade_smithing_template"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements_story_echo_shard_tablet_desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "vanilla-expanded:echo_shard_upgrade_smithing_template"
+    },
+    "title": {
+      "translate": "advancements_story_echo_shard_tablet_title"
+    }
+  },
+  "requirements": [
+    [
+      "echo_shard_tablet"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

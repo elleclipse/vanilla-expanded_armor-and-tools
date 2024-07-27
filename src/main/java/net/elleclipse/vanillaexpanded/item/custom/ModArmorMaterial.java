@@ -156,6 +156,25 @@ public class ModArmorMaterial {
             // NOT dyeable, so we will pass false.
             false
     );
+    public static final RegistryEntry<ArmorMaterial> ECHO_SHARD = registerMaterial("echo_shard",
+            // Defense (protection) point values for each armor piece.
+            Map.of(
+                    ArmorItem.Type.HELMET, 6,
+                    ArmorItem.Type.CHESTPLATE, 10,
+                    ArmorItem.Type.LEGGINGS, 7,
+                    ArmorItem.Type.BOOTS, 5
+            ),
+            // Enchantability. For reference, leather has 15, iron has 9, and diamond has 10.
+            20,
+            // The sound played when the armor is equipped.
+            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,
+            // The ingredient(s) used to repair the armor.
+            () -> Ingredient.ofItems(Items.ECHO_SHARD),
+            1F,
+            1F,
+            // NOT dyeable, so we will pass false.
+            false
+    );
 
     public static RegistryEntry<ArmorMaterial> registerMaterial(
             String id,

@@ -3,12 +3,12 @@
   "item.vanilla-expanded.amethyst_chestplate": "Amethyst Chestplate",
   "item.vanilla-expanded.amethyst_leggings": "Amethyst Leggings",
   "item.vanilla-expanded.amethyst_boots": "Amethyst Boots",
+
   "item.vanilla-expanded.amethyst_pickaxe": "Amethyst Pickaxe",
   "item.vanilla-expanded.amethyst_axe": "Amethyst Axe",
   "item.vanilla-expanded.amethyst_sword": "Amethyst Sword",
   "item.vanilla-expanded.amethyst_shovel": "Amethyst Shovel",
   "item.vanilla-expanded.amethyst_hoe": "Amethyst Hoe",
-  "item.vanilla-expanded.withered_bone": "Withered Bone",
 
   "item.vanilla-expanded.amethyst_upgrade_smithing_template": "Smithing Template",
   "amethyst_upgrade_smithing_template_applies_to": "Diamond Equipment",
@@ -17,7 +17,17 @@
   "amethyst_upgrade_smithing_template_base_slot": "Add diamond armor, weapon, or tool",
   "amethyst_upgrade_smithing_template_additions": "Add amethyst cluster",
 
-  "trim_material.vanilla-expanded.blaze_powder": "Blaze Powder Material",
+  "item.vanilla-expanded.echo_shard_helmet": "Echo Shard Helmet",
+  "item.vanilla-expanded.echo_shard_chestplate": "Echo Shard Chestplate",
+  "item.vanilla-expanded.echo_shard_leggings": "Echo Shard Leggings",
+  "item.vanilla-expanded.echo_shard_boots": "Echo Shard Boots",
+
+  "item.vanilla-expanded.echo_shard_upgrade_smithing_template": "Smithing Template",
+  "echo_shard_upgrade_smithing_template_applies_to": "Netherite Equipment",
+  "echo_shard_upgrade_smithing_template_ingredient": "Echo Shard",
+  "echo_shard_upgrade_smithing_template_title": "Echo Shard Upgrade",
+  "echo_shard_upgrade_smithing_template_base_slot": "Add netherite armor",
+  "echo_shard_upgrade_smithing_template_additions": "Add echo shard",
 
   "item.vanilla-expanded.copper_helmet": "Copper Helmet",
   "item.vanilla-expanded.copper_chestplate": "Copper Chestplate",
@@ -28,7 +38,6 @@
   "item.vanilla-expanded.copper_pickaxe": "Copper Pickaxe",
   "item.vanilla-expanded.copper_axe": "Copper Axe",
   "item.vanilla-expanded.copper_hoe": "Copper Hoe",
-
 
   "item.vanilla-expanded.emerald_helmet": "Emerald Helmet",
   "item.vanilla-expanded.emerald_chestplate": "Emerald Chestplate",
@@ -54,12 +63,16 @@
   "item.vanilla-expanded.skeleton_leggings": "Skeleton Leggings",
   "item.vanilla-expanded.skeleton_boots": "Skeleton Boots",
 
+  "item.vanilla-expanded.withered_bone": "Withered Bone",
+
   "item.vanilla-expanded.withered_helmet": "Withered Helmet",
   "item.vanilla-expanded.withered_chestplate": "Withered Chestplate",
   "item.vanilla-expanded.withered_leggings": "Withered Leggings",
   "item.vanilla-expanded.withered_boots": "Withered Boots",
 
   "itemgroup.amethyst_combat": "Vanilla Expanded Items",
+
+
 
   "advancements_story_crystal_gear_desc": "Craft a full set of Amethyst armor",
   "advancements_story_crystal_gear_title": "Covered In Crystals",
@@ -95,7 +108,11 @@
   "advancements_story_skeleton_gear_title": "I Have A Bone To Pick With You!",
 
   "advancements_story_withered_gear_desc": "Craft a full set of withered bone armor",
-  "advancements_story_withered_gear_title": "Wither Me This, Wither Me That"
+  "advancements_story_withered_gear_title": "Wither Me This, Wither Me That",
 
+  "advancements_story_echo_shard_gear_desc": "Craft a full set of echo shard armor",
+  "advancements_story_echo_shard_gear_title": "An Echo In The Deep",
 
+  "advancements_story_echo_shard_tablet_desc": "Obtain an echo shard smithing template",
+  "advancements_story_echo_shard_tablet_title": "Deep Dark Armor?"
 }

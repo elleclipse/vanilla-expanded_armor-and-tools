@@ -69,6 +69,12 @@ public class ModItemGroups {
                 entries.add(ModItems.WITHERED_LEGGINGS);
                 entries.add(ModItems.WITHERED_CHESTPLATE);
 
+                entries.add(ModItems.ECHO_SHARD_HELMET);
+                entries.add(ModItems.ECHO_SHARD_BOOTS);
+                entries.add(ModItems.ECHO_SHARD_LEGGINGS);
+                entries.add(ModItems.ECHO_SHARD_CHESTPLATE);
+
+                entries.add(ModItems.ECHO_SHARD_UPGRADE_SMITHING_TEMPLATE);
 
             }).build());
 

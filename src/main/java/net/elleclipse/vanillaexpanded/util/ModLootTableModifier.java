@@ -23,6 +23,7 @@ import net.minecraft.util.Identifier;
 
 public class ModLootTableModifier {
 
+    private static final RegistryKey<LootTable> ANCIENT_CITY_CHEST_ID = LootTables.ANCIENT_CITY_CHEST;
     private static final RegistryKey<LootTable> ABANDONED_MINESHAFT_MINECART_CHEST_ID = LootTables.ABANDONED_MINESHAFT_CHEST;
     private static final RegistryKey<LootTable> WITHER_SKELETON_ID = EntityType.WITHER_SKELETON.getLootTableId();
 
@@ -43,6 +44,16 @@ public class ModLootTableModifier {
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.5f))
                         .with(ItemEntry.builder(ModItems.AMETHYST_UPGRADE_SMITHING_TEMPLATE))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f,2.0f)).build());
+
+                tableBuilder.pool(poolBuilder);
+            }
+
+            if(source.isBuiltin() && ANCIENT_CITY_CHEST_ID.equals(key)){
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.35f))
+                        .with(ItemEntry.builder(ModItems.ECHO_SHARD_UPGRADE_SMITHING_TEMPLATE))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f,2.0f)).build());
 
                 tableBuilder.pool(poolBuilder);

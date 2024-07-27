@@ -1,0 +1,46 @@
+{
+  "parent": "vanilla-expanded:echo_shard_tablet",
+  "criteria": {
+    "echo_shard_gear": {
+      "conditions": {
+        "items": [
+          {
+            "items": "vanilla-expanded:echo_shard_helmet"
+          },
+          {
+            "items": "vanilla-expanded:echo_shard_chestplate"
+          },
+          {
+            "items": "vanilla-expanded:echo_shard_leggings"
+          },
+          {
+            "items": "vanilla-expanded:echo_shard_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements_story_echo_shard_gear_desc"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "vanilla-expanded:echo_shard_chestplate"
+    },
+    "title": {
+      "translate": "advancements_story_echo_shard_gear_title"
+    }
+  },
+  "requirements": [
+    [
+      "echo_shard_gear"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}
