@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "CAC",
+    "ASA",
+    "CAC"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "C": {
+      "item": "minecraft:amethyst_cluster"
+    },
+    "A": {
+      "item": "minecraft:amethyst_block"
+    }
+  },
+  "result": {
+    "id": "vanilla-expanded:amethyst_upgrade_smithing_template",
+    "count": 1
+  }
+}
